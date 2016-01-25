@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a07d40c7ae156e9a24c07c9b7f59d320",
-    "content-hash": "6fbbec7f17a5ceaf12c61a664672ff31",
+    "hash": "0cff57924e2cbe5936bbf81b1e43fc5a",
+    "content-hash": "e7a05d1502db74f63c6f436bd9a283a5",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -1258,6 +1258,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "cakephp/migrations": 0,
         "psy/psysh": 0
     },
     "prefer-stable": true,

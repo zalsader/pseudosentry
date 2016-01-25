@@ -53,7 +53,9 @@ Router::scope('/', function ($routes) {
      * ...and connect the rest of 'Pages' controller's URLs.
      */
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
-
+    
+    $routes->connect('/api/:id/store', ['controller' => 'Errors', 'action' => 'add'], ['id' => '\d+', 'pass' => ['id']]);
+    
     /**
      * Connect catchall routes for all controllers.
      *
